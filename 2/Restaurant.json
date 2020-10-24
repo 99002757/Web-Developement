@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Feel Free",
+        "city": "Mysore",
+        "type": "Vegetarian",
+        "cuisine": ["Indian", "chinese"]
+    },
+    {
+        "name": "Malabar",
+        "city": "Bangalore",
+        "type": "Vegetarian",
+        "cuisine": ["Indian"]
+    },
+    {
+        "name": "Taj",
+        "city": "Chennai",
+        "type": "Non-Vegetarian",
+        "cuisine": ["Indian"]
+    }
+]
