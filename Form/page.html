@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <script src="./Scripts/Common.js"></script>
+    <script src="./Scripts/Classes.js"></script>
+    <script>
+        function store(){
+            alert('User Successfully Registered');
+            let name = $("userName").value;
+            let dob = $("dob").value;
+            let status = $("status").value;
+            let qual = $("userQual").value;
+            let userObj = new employee(name, dob, status, qual);
+            let text = `<h1>Name: ${userObj.name} </h1><p>DOB: ${userObj.dob} </p><p>Marital Status: ${userObj.status} </p><p>Qualification: ${userObj.qual} </p>`
+            $("printHere").innerHTML = text;
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <h1><FORM</h1>
+    <style>
+        body{
+            background-color:lightpink;
+            color: black;
+        }
+        h1{
+            background-color:lightpink;
+            font-family: 'Sansita Swashed',Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            text-align: center;
+            /*padding: 30;*/
+            margin: 0px;  
+        }
+        a{
+            width: 10px;
+            color:lightskyblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form align="center">
+            <p>Enter your name: <input type="text" placeholder="Enter the Name" id="userName"></p>    
+            <p>Enter your DOB: <input type="date" id="dob" name="dob">
+            <p>
+                Marital Status: <input type="radio" id="status" value="Single" name="status1">Single<input type="radio" id="status" value="Married" name="status2">Married
+            </p>        
+            <p>Educational Qualification: <select id="userQual">
+                <option>Under Graduate</option>
+                <option>Post Graduate</option>
+                <option>Doctorate</option>
+            </select></p>
+            <button type="button" onclick=store()>SUBMIT</button>
+        </form>
+    </section>
+    <br>   
+    <div>
+        <p>The User Details:</p>
+        <p id="printHere"></p>
+    </div>
+</body>
+</html>
