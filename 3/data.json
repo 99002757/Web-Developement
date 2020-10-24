@@ -1,0 +1,31 @@
+[{
+    "userId": 1,
+    "userName": "Anu",
+    "userCity": "Mysore",
+    "userEmail": "anu@gmail.com",
+    "userPhone": "9875896412"
+}, {
+    "userId": 2,
+    "userName": "Shreya",
+    "userCity": "Chennai",
+    "userEmail": "shreya@gmail.com",
+    "userPhone": "9955884156"
+}, {
+    "userId": 3,
+    "userName": "Infant",
+    "userCity": "Tanjore",
+    "userEmail": "infant@gmail.com",
+    "userPhone": "9789456123"
+}, {
+    "userId": "4",
+    "userName": "Preetha",
+    "userCity": "Coimbatore",
+    "userEmail": "preetha@gmail.com",
+    "userPhone": "9878965412"
+}, {
+    "userId": "5",
+    "userName": "Jyotika",
+    "userCity": "kakkinada",
+    "userEmail": "jyo@gmail.com",
+    "userPhone": "9124563875"
+}]
